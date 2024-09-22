@@ -8,7 +8,7 @@ import ezgmail
 
 
 #recipient of email
-to = "wbrhyne@gmail.com"
+to = "example@example.com"
 #subject of email
 subject = "CHECK THE WAVES MAN"
 # body of email
@@ -69,7 +69,7 @@ def sendEmail(to, subject, body):
 
 
 # scrape surfline
-url = "https://www.surfline.com/surf-report/61st-street/5842041f4e65fad6a7708b8c?view=table"
+url = "https://www.surfline.com/surf-report/your-break"
 finalwaves, title = scrape_surfline(url)
 print(finalwaves, title)
 #checking to see if the values are equal to or greater than 3ft
